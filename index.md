@@ -4,9 +4,8 @@ layout: default
 
 <div class="header-container jumbotron">
     <div class="container">
-        <h1>Jekyll Template for Project Websites</h1>
-        <p>Simple and modern design for publishing blog posts, documentation and many more things for your project.
-          You can now clone and start to create a website for your project like this one.</p>
+        <h1>Opening pathways for discovery, research, and innovation in health (and healthcare)</h1>
+        <p> Yay finally got this to work.</p>
         <p><a class="btn btn-primary btn-lg" href="{{ "/docs/home/" | prepend: site.baseurl }}" role="button">Learn more</a></p>
     </div>
 </div>
@@ -16,17 +15,9 @@ layout: default
 
     <div class="row">
         <div class="col-md-6">
-            <h2 class="header-light regular-pad">What is Jekyll?</h2>
+            <h2 class="header-light regular-pad">What is this project?</h2>
             <blockquote>
-              <p>Jekyll is a simple, blog-aware, static site generator. It takes a template
-              directory containing raw text files in various formats, runs it through
-              a converter (like <a href="https://daringfireball.net/projects/markdown/">Markdown</a>)
-              and our <a href="https://github.com/Shopify/liquid/wiki">Liquid</a> renderer, and
-              spits out a complete, ready-to-publish static website suitable
-              for serving with your favorite web server. Jekyll also happens to be the engine
-              behind <a href="https://pages.github.com">GitHub Pages</a>, which means you can use Jekyll
-              to host your project’s page, blog, or website from GitHub’s servers <strong>for
-              free</strong>.</p>
+              <p>About text blah blah blah blah.</p>
             </blockquote>
         </div>
         <div class="col-md-6 text-center">
