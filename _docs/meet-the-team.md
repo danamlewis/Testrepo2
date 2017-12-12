@@ -2,9 +2,6 @@
 title: Meet the team
 permalink: /docs/meet-the-team/
 ---
-
-# Meet the research team
-
 Dana Lewis, Principal Investigator (PI)
 
 Erik Johnston, Co-/Administrative Investigator
