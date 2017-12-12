@@ -1,9 +1,9 @@
 # Site settings
-title: Testing a repo for Opening Pathways
-email: your-email@domain.com
+title: Opening Pathways for discovery, research, and innovation in health and healthcare
+email: dana@openingpathways.org
 description: >
-  Jekyll Template for Project Websites
-  providing documentation and blog post pages.
+This project is a collaboration between patients and traditional researchers to explore the processes around discovery, research, and innovation in health and healthcare. The project is unique because it is led by a patient as Principal Investigator. The project is supported with grant funding by the Robert Wood Johnson Foundation.
+
 
 baseurl: /Testrepo2 # the subpath of your site, e.g. /blog/
 url: https://danamlewis.github.io/Testrepo2/ # the base hostname & protocol for your site
