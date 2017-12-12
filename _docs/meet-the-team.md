@@ -1,6 +1,6 @@
 ---
 title: Meet the team
-permalink: /docs/meet-the-team.md
+permalink: /docs/meet-the-team
 ---
 
 ### Meet the research team
