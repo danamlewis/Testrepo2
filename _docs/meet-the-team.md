@@ -7,7 +7,7 @@ permalink: /docs/meet-the-team/
   <a href="#" class="btn btn-default">Meet the team</a>
   <a href="#" class="btn btn-default dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
   <ul class="dropdown-menu">
-    <li><a href="#">Dana Lewis, Principal Investigator</a></li>
+    <li><a href="#### Dana Lewis, Principal Investigator (PI)">Dana Lewis, Principal Investigator</a></li>
     <li><a href="#">Erik Johnston, Co-/Administrative Investigator</a></li>
     <li><a href="#">Eric Hekler, Co-Investigator</a></li>
     <li><a href="#">John Harlow</a></li>
