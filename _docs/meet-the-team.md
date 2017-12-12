@@ -3,7 +3,7 @@ title: Meet the team
 permalink: /docs/meet-the-team.md
 ---
 
-Meet the research team
+### Meet the research team
 
 Dana Lewis, Principal Investigator (PI)
 
