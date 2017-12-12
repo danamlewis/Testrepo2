@@ -1,7 +1,7 @@
 ---
 title: Get involved
-permalink: /_docs/home/
-redirect_from: /_docs/index.html
+permalink: /docs/home/
+redirect_from: /docs/index.html
 ---
 
 ## Getting involved
