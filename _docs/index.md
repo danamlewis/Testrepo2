@@ -10,6 +10,6 @@ There are numerous ways to be involved in this project.
 
 Stay tuned - you can work with the data science team on a research question that you have that can be answered by already-collected diabetes data.
 
-### Are you a research wanting to work with a patient community?
+### Are you a patient from another patient community, interested in working with our open source materials?
 
-We can help, by sharing what we've learned about patient innovators and researchers. Please contact us via team@openingpathways.org
+One goal of the project is to create some open source materials that will help patients in other communities scale their work, whether it's research, a data tool, or some other innovation. Stay tuned to hear more about those materials as they become available.
