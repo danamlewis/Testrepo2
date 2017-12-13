@@ -3,18 +3,18 @@ title: Meet the team
 permalink: /docs/meet-the-team/
 ---
 
-### Dana Lewis, Principal Investigator (PI)
+#### Dana Lewis, Principal Investigator (PI)
 
-### Erik Johnston, Co-/Administrative Investigator
+#### Erik Johnston, Co-/Administrative Investigator
 
-### Eric Hekler, Co-Investigator
+#### Eric Hekler, Co-Investigator
 
-### John Harlow
+#### John Harlow
 
-### Sayali Phatak
+#### Sayali Phatak
 
-### Keren Hirsch
+#### Keren Hirsch
 
-#### Contact the team
+##### Contact the team
 
-Reach out to the team by emailing: team@openingpathways.org
+* Reach out to the team by emailing: team@openingpathways.org
