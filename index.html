@@ -6,7 +6,17 @@ layout: default
     <div class="container">
         <h1>Opening pathways for discovery, research, and innovation in health (and healthcare)</h1>
        <!-- <p> Subhead here.</p> -->
-        <p><a class="btn btn-primary btn-lg" href="{{ "/docs/home/" | prepend: site.baseurl }}" role="button">Learn more</a></p>
+       <!-- <p><a class="btn btn-primary btn-lg" href="{{ "/docs/home/" | prepend: site.baseurl }}" role="button">Learn more</a></p> -->
+        <div class="btn-group">
+            <a href="#" class="btn btn-primary">Learn more</a>
+            <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></a>
+             <ul class="dropdown-menu">
+                  <li><a href="/docs/home/">Get involved</a></li>
+                  <li><a href="docs/meet-the-team/">Meet the research team</a></li>
+                  <li class="divider"></li>
+                 <li><a href="/allposts/">Read the project blog</a></li>
+             </ul>
+            </div>
     </div>
 </div>
 
