@@ -6,7 +6,7 @@ description: >
 
 
 baseurl: /Testrepo2/ # the subpath of your site, e.g. /blog/
-url: https://danamlewis.github.io/Testrepo2/ # the base hostname & protocol for your site
+url: https://danamlewis.github.io # the base hostname & protocol for your site
 git_address: https://github.com/danamlewis/Testrepo2
 git_edit_address: https://github.com/danamlewis/Testrepo2
 
