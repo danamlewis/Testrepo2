@@ -11,7 +11,7 @@ git_address: https://github.com/danamlewis/Testrepo2
 git_edit_address: https://github.com/danamlewis/Testrepo2
 
 # attempting to add the info for comments
-repository: "danamlewis/Testrepo2"
+repository: "danamlewis.github.io/Testrepo2"
 staticman:
   branch: "master"
 
@@ -43,7 +43,7 @@ defaults:
   values:
     layout: post
     sectionid: blog
-    comments: true
+    comment: true
 
 - scope:
     path: _docs
