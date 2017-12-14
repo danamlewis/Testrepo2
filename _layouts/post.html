@@ -22,12 +22,7 @@ layout: default
             <p>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
             <div  id="markdown-content-container">{{ content }}</div>
             <hr>
-                        test comment before what should work
-            
-                {% if site.comments.provider and post.comments %}
-                    {% include comments.html %}
-                {% endif %}
-            
+
             test comment before sample form
             
             <!-- sample form -->
