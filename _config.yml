@@ -11,6 +11,8 @@ git_address: https://github.com/danamlewis/Testrepo2
 git_edit_address: https://github.com/danamlewis/Testrepo2
 
 # attempting to add the info for comments
+comments:
+  provider: "staticman"
 repository: danamlewis.github.io/Testrepo2
 staticman:
   branch: "master"
