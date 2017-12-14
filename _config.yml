@@ -12,8 +12,6 @@ git_edit_address: https://github.com/aksakalli/jekyll-doc-theme/blob/gh-pages
 
 # attempting to add the info for comments
 repository  : "danamlewis/Testrepo2"
-comments:
-  provider  : "staticman_v2"
 staticman:
   branch    : "master"
 
