@@ -59,7 +59,7 @@ Test before comment section in progress
 
         <p class="small">{{ site.data.ui-text[site.locale].comment_form_info | default: "" }}</p>
 
-        <form id="new_comment" class="page__comments-form js-form form" method="post" action="https://api.staticman.net/v2/entry/danamlewis/Testrepo2/master/_data/comments">
+        <form id="new_comment" class="page__comments-form js-form form" method="post" action="https://api.staticman.net/v2/entry/{{ site.repository }}/{{ site.staticman.branch }}/_data/comments">
 
       <!--    <div class="form__spinner">
             <i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
