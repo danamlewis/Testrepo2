@@ -1,5 +1,17 @@
+Test before comment section in progress
 <div class="page__comments">
-
+  {% capture comments_label %}{{ site.data.ui-text[site.locale].comments_label | default: "Comments" }}{% endcapture %}
+  {% case site.comments.provider %}
+  {% when "disqus" %}
+    <h4 class="page__comments-title">{{ comments_label }}</h4>
+    <section id="disqus_thread"></section>
+  {% when "facebook" %}
+    <h4 class="page__comments-title">{{ comments_label }}</h4>
+    <section class="fb-comments" data-href="{{ page.url | absolute_url }}" data-mobile="true" data-num-posts="{{ site.comments.facebook.num_posts | default: 5 }}" data-width="100%" data-colorscheme="{{ site.comments.facebook.colorscheme | default: 'light' }}"></section>
+  {% when "google-plus" %}
+    <h4 class="page__comments-title">{{ comments_label }}</h4>
+    <section class="g-comments" data-href="{{ page.url | absolute_url }}" data-first_party_property="BLOGGER" data-view_type="FILTERED_POSTMOD">Loading Google+ Comments ...</section>
+  {% when "staticman" %}
 
     <section id="static-comments">
       {% if site.repository and site.staticman.branch %}
@@ -47,7 +59,7 @@
 
         <p class="small">{{ site.data.ui-text[site.locale].comment_form_info | default: "Your email is used for Gravatar image and reply notifications only.  Address will not be published." }} <span class="required">*</span></p>
 
-        <form id="new_comment" class="page__comments-form js-form form" method="post" action="https://api.staticman.net/v2/entry/danamlewis/master/_data/comments">
+        <form id="new_comment" class="page__comments-form js-form form" method="post" action="https://api.staticman.net/v2/entry/{{ site.repository }}/{{ site.staticman.branch }}/comments">
 
           <div class="form__spinner">
             <i class="fa fa-spinner fa-spin fa-3x fa-fw"></i>
