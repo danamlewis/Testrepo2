@@ -64,22 +64,5 @@ layout: default
             <br>
             test comment after comments should display
             
-            <ul class="pager">
-                {% if page.previous %}
-                <li class="previous">
-                    <a href="{{ page.previous.url | prepend: site.baseurl }}">
-                        <span aria-hidden="true">&larr;</span> Older
-                    </a>
-                </li>
-                {% endif %} {% if page.next %}
-                <li class="next">
-                    <a href="{{ page.next.url | prepend: site.baseurl }}">
-                      Newer <span aria-hidden="true">&rarr;</span>
-                    </a>
-                </li>
-                {% endif %}
-            </ul>
-        </div>
-
     </div>
 </div>
