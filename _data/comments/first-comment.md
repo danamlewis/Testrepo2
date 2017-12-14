@@ -1,0 +1,1 @@
+Initializing comments folder
