@@ -22,6 +22,27 @@ layout: default
             <p>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
             <div  id="markdown-content-container">{{ content }}</div>
             <hr>
+                        test comment before what should work
+            
+                {% if site.comments.provider and post.comments %}
+                    {% include comment.html %}
+                {% endif %}
+            
+            test comment before sample form
+            
+            <!-- sample form -->
+            <form method="POST" action="https://api.staticman.net/v2/entry/danamlewis/Testrepo2/master/comments">
+  <input name="options[redirect]" type="hidden" value="https://my-site.com">
+  <!-- e.g. "2016-01-02-this-is-a-post" -->
+  <input name="options[slug]" type="hidden" value="{{ page.slug }}">
+  <label><input name="fields[name]" type="text">Name</label>
+  <label><input name="fields[email]" type="email">E-mail</label>
+  <label><textarea name="fields[message]"></textarea>Message</label>
+  
+  <button type="submit">Go!</button>
+</form>
+            
+            test comment after sample form
             <ul class="pager">
                 {% if page.previous %}
                 <li class="previous">
