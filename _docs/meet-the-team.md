@@ -7,6 +7,7 @@ permalink: /docs/meet-the-team/
 
 <img src="{{site.baseurl}}/img/Dana_Lewis_tulips.JPG" width="267" height="200" align="left" hspace="20" alt="Dana Lewis">
 After building her own DIY “artificial pancreas,” Dana Lewis helped found the open source artificial pancreas movement (known as “OpenAPS”), making of safe and effective artificial pancreas technology available (sooner) for people with diabetes around the world. She is part of the #WeAreNotWaiting movement & engages with patient communities globally to solve healthcare problems in new and innovative ways. Her work as Principal Investigator for this Robert Wood Johnson Foundation funded grant project focuses on scaling patient-led innovation and scientific discovery in more patient communities. She is active on Twitter as <a href="http://twitter.com/danamlewis">@DanaMLewis</a>
+<br>
 
 #### Erik Johnston, Co-/Administrative Investigator
 
@@ -27,7 +28,6 @@ Dr. Eric Hekler, PhD, is an Associate Professor in the Department of Family Medi
 <br>
 <br>
 
-
 #### John Harlow
 
 <img src="{{site.baseurl}}/img/JH_Headshot.jpg" width="146" height="200" align="left" hspace="20" alt="John Harlow"> 
@@ -36,7 +36,6 @@ John Harlow is a postdoctoral scholar in the <a href="http://opening-governance.
 <br>
 <br>
 <br>
-
 #### Sayali Phatak
 
 
