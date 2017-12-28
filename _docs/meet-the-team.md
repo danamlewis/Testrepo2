@@ -23,7 +23,7 @@ After building her own DIY “artificial pancreas,” Dana Lewis helped found th
 
 4. <img src="img/Dana_Lewis_tulips.JPG" class="img-responsive" alt="Dana Lewis 4">
 
-5. <img src="../img/Dana_Lewis_tulips.JPG" class="img-responsive" alt="Dana Lewis 5">
+5. <img src="{{site.baseurl}}/img/Dana_Lewis_tulips.JPG" class="img-responsive" alt="Dana Lewis 5">
 
 #### Erik Johnston, Co-/Administrative Investigator
 
