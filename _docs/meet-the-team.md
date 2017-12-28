@@ -5,31 +5,12 @@ permalink: /docs/meet-the-team/
 
 #### Dana Lewis, Principal Investigator (PI)
 
-1. 
-  <div class="col-lg-4 col-sm-6">
-    <div class="thumbnail">
-      <div class="image">
-        <img src="https://github.com/danamlewis/Testrepo2/blob/master/img/Dana_Lewis_tulips.JPG" class="img-responsive" alt="Dana Lewis">
-      </div>
-    </div>
-   </div>
-
+<img src="{{site.baseurl}}/img/Dana_Lewis_tulips.JPG" width="267" height="200" align="left"  alt="Dana Lewis">
 After building her own DIY “artificial pancreas,” Dana Lewis helped found the open source artificial pancreas movement (known as “OpenAPS”), making of safe and effective artificial pancreas technology available (sooner) for people with diabetes around the world. She is part of the #WeAreNotWaiting movement & engages with patient communities globally to solve healthcare problems in new and innovative ways. Her work as Principal Investigator for this Robert Wood Johnson Foundation funded grant project focuses on scaling patient-led innovation and scientific discovery in more patient communities. She is active on Twitter as <a href="http://twitter.com/danamlewis">@DanaMLewis</a>
-
-2. <img src="https://github.com/danamlewis/Testrepo2/blob/master/img/Dana_Lewis_tulips.JPG" alt="Dana Lewis">
-
-
-3.  <link rel="canonical" href="https://github.com/danamlewis/Testrepo2/blob/master/img/Dana_Lewis_tulips.JPG">
-
-4. <img src="img/Dana_Lewis_tulips.JPG" class="img-responsive" alt="Dana Lewis 4">
-
-5. <img src="{{site.baseurl}}/img/Dana_Lewis_tulips.JPG" width="267" height="200" align="left"  alt="Dana Lewis 5">
-
-6. <img src="{{site.baseurl}}/img/Dana_Lewis_tulips.JPG" class="img-responsive" alt="Dana Lewis 6">
 
 #### Erik Johnston, Co-/Administrative Investigator
 
-<img src="https://github.com/danamlewis/Testrepo2/blob/master/img/ejohnston.jpg" width="200" height="200" align="left" /> 
+<img src="{{site.baseurl}}/img/ejohnston.jpg" width="200" height="200" align="left" /> 
 
 Erik W. Johnston, Ph.D, is an associate professor of policy informatics in the School of Public Affairs and the director of the Center for Policy Informatics in the College of Public Service and Community Solutions at Arizona State University. Johnston's research focuses on policy informatics, the study of how computational and communication technology is leveraged to specifically understand and address complex public policy and administration problems and realize innovations in governance processes and institutions.
 <br>
