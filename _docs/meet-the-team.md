@@ -5,7 +5,14 @@ permalink: /docs/meet-the-team/
 
 #### Dana Lewis, Principal Investigator (PI)
 
-![Dana Lewis headshot](../img/Dana_Lewis_tulips.JPG)
+  <div class="col-lg-4 col-sm-6">
+    <div class="thumbnail">
+      <div class="image">
+        <a href="#Dana/"><img src="https://github.com/danamlewis/Testrepo2/blob/master/img/Dana_Lewis_tulips.JPG" class="img-responsive" alt="Dana"></a>
+      </div>
+    </div>
+   </div>
+
 
 After building her own DIY “artificial pancreas,” Dana Lewis helped found the open source artificial pancreas movement (known as “OpenAPS”), making of safe and effective artificial pancreas technology available (sooner) for people with diabetes around the world. She is part of the #WeAreNotWaiting movement & engages with patient communities globally to solve healthcare problems in new and innovative ways. Her work as Principal Investigator for this Robert Wood Johnson Foundation funded grant project focuses on scaling patient-led innovation and scientific discovery in more patient communities. She is active on Twitter as <a href="http://twitter.com/danamlewis">@DanaMLewis</a>
 
