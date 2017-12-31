@@ -35,12 +35,11 @@ John Harlow is a postdoctoral scholar in the <a href="http://opening-governance.
 <br>
 <br>
 <br>
+
 #### Sayali Phatak
 
-
-
-
-<br>
+<img src="{{site.baseurl}}/img/sphatak.jpg" width="160" height="200" align="left" hspace="20" alt="Sayali Phatak"> 
+Sayali Phatak is a Doctoral Student and Research Associate at the School of Nutrition and Health Promotion at Arizona State University. Her work focuses on the design and development of personalized approaches for improving health and well-being; particularly, designing processes and tools to support strategies such as self-experimentation and self-tracking.
 <br>
 <br>
 <br>
