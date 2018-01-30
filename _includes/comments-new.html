@@ -1,40 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
-}
 
-input[type=submit] {
-    background-color: #4CAF50;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-input[type=submit]:hover {
-    background-color: #45a049;
-}
-
-.container {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-}
-</style>
-</head>
-<body>
 
 <form method="POST" action="https://api.staticman.net/v2/entry/danamlewis/Testrepo2/master">
 
@@ -46,5 +10,25 @@ input[type=submit]:hover {
   <button type="submit">Submit your comment</button>
 </form>
 
-  </body>
-</html>
+
+<article id="comment{{ include.index }}" class="js-comment comment" itemprop="comment" itemscop itemtype="http://schema.org/Comment">
+    <div class="comment__content-wrapper">
+        <h4 class="comment__author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            {% unless include.url == '' %}
+            <a rel="nofollow" href="{{ include.url }}"><span itemprop="name">{{ include.name }}</span></a>
+            {% else %}
+            <span itemprop="name">{{ include.name }}</span>
+            {% endunless %}
+        </h4>
+        <div class="comment__date">
+            {% if include.date %}
+            {% if include.index %}<a href="#comment{{ include.index }}" itemprop="url">{% endif %}
+            <time datetime="{{ include.date | date_to_xmlschema }}" itemprop="datePublished">{{ include.date | date: "%B %d, %Y at %I:%M %p" }}</time>
+            {% if include.index %}</a>{% endif %}
+            {% endif %}
+        </div>
+        <div itemprop="text">{{ include.message | markdownify }}</div>
+    </div>
+</article>
+
+<h4 class="card-title">Submit Comment</h4> <div class="row"> <div class="input-field col s12 m6"> <input id="form-name" name="fields[name]" type="text" class="validate"> <label for="form-name">Name</label> </div> <div class="input-field col s12 m6"> <input id="form-email" name="fields[email]" type="email" class="validate"> <label for="form-email">Email</label> </div> </div> <div class="row"> <div class="input-field col s12"> <input id="form-url" name="fields[url]" type="url" class="validate"> <label for="form-url">Website (optional)</label> </div> </div> <div class="row"> <div class="input-field col s12"> <textarea id="form-message" name="fields[message]" class="materialize-textarea"></textarea> <label for="form-message">Comment</label> </div> </div> <button type="submit" class="waves-effect waves-light btn">Submit</button> </div> </div> </form> </div>
