@@ -3,14 +3,12 @@
 <form method="POST" action="https://api.staticman.net/v2/entry/danamlewis/Testrepo2/master">
 
   <input name="options[slug]" type="hidden" value="{{ page.slug }}">
-  Name*:
+  <b>Name*:</b>
   <input name="fields[name]" type="text">
-  Email* (will not be published):
+  <b>Email* (will not be published):</b>
   <input name="fields[email]" type="email">
-  Comment:
+  <p><b>Comment:</b></p>
   <p><textarea name="fields[message]" rows="3" cols="60"></textarea></p>
 
   <button type="submit">Submit your comment</button>
 </form>
-
-
