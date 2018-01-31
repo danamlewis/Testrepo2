@@ -22,6 +22,12 @@ layout: default
             <p>{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
             <div  id="markdown-content-container">{{ content }}</div>
             <hr>
+            {% capture post_slug %}{{ include.post.date | date: "%Y-%m-%d" }}-{{ include.post.title | slugify }}{% endcapture %}
+
+{% if site.data.comments[post_slug] %}
+  <svg class="post__meta-icon"><use xlink:href="#icon-bubble"></use></svg>
+  {{ site.data.comments[post_slug] | size }}
+{% endif %}
              {% include comments-new.html %}
              {% include comments.html %}
     </div>
