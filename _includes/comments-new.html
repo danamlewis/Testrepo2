@@ -1,7 +1,6 @@
 
 
 <form method="POST" action="https://api.staticman.net/v2/entry/danamlewis/Testrepo2/master">
-<input type="hidden" name="options[redirect]" value="">.
   <input name="options[slug]" type="hidden" value="{{ page.slug }}">
   <b>Name*:</b>
   <input name="fields[name]" type="text">
@@ -10,6 +9,7 @@
   <b>Comment:</b>
   <p><textarea name="fields[message]" rows="3" cols="30"></textarea></p>
 
-  <button type="submit">Submit your comment</button>
+  <a href="javascript:history.go(0)"><button type="submit">Submit your comment</button><a>
+  
 </form>
 
