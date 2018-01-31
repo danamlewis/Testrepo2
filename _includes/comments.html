@@ -1,12 +1,16 @@
 {% assign comments = site.data.comments | sort %}
 
+<br></br>
+<br></br>
+
 {% for comment in comments reversed %}
   {% assign commentData = comment[1] %}
     <div>
      <b>From:</b> {{ commentData.name }}</br>
-<b>{{ commentData.date | date_to_long_string }}</b>
-      {{ commentData.message }}</br>
-</br>
+     <b>{{ commentData.date | date_to_long_string }}</b></br>
+     <b>Comment:</b></br>
+     {{ commentData.message }}</br>
+     </br>
     </div>
 
 {% endfor %}
