@@ -20,7 +20,7 @@ Test comment form
 <div class="page__comments">
   {% capture comments_label %}{{ site.data.ui-text[site.locale].comments_label | default: "Comments" }}{% endcapture %}
   {% case site.comments.provider %}
-
+  {% when "staticman" %}
     <section id="static-comments">
       {% if site.repository and site.staticman.branch %}
       {% if site.data.comments[page.slug] %}
