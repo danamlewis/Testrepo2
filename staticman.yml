@@ -1,4 +1,4 @@
-allowedFields: ['name', 'email', 'message', 'title']
+allowedFields: ['name', 'email', 'message']
 branch: master
 commitMessage: "New Comment"
 filename: "entry-{options.slug}-{@timestamp}"
