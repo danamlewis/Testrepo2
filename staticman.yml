@@ -5,4 +5,4 @@ filename: "entry-{options.slug}-{@timestamp}"
 format: yml
 moderation: true
 path: "_data/comments"
-requiredFields: ['name', 'email', 'message', 'title']
+requiredFields: ['name', 'email', 'message']
